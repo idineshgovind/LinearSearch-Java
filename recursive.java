@@ -13,7 +13,7 @@
           return recursiveSearch(arrayElement, left+1, right-1, number);
      }
 
-  public static void recursivleSearch(){
+  public static void recursiveSearch(){
         int number = 3;
         int indexNumber = recursiveSearch(arrayElement, 0, arrayElement.length-1, number);
         if (indexNumber != -1)
